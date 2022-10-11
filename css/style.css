@@ -1,0 +1,92 @@
+/* Variables */
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(51, 54, 59);
+  margin: 0 auto;
+}
+
+.container {
+  background-image: url(/images/main.jpeg);
+  background-position: center center;
+  background-size: cover;
+  margin-top: 0;
+  color: white;
+}
+
+.golden {
+  text-align: center;
+  font-family: "Satisfy", cursive;
+  font-size: 34px;
+  border: 1px dotted burlywood;
+}
+.golden h5 {
+  margin: 30px 0 0 0;
+}
+
+.navigation {
+  display: flex;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  border: 1px dotted rgb(30, 157, 26);
+}
+.navigation ul {
+  position: absolute;
+  margin-top: 30px;
+}
+.navigation ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.navigation ul li a:hover {
+  color: rgb(220, 163, 87);
+}
+
+header {
+  display: flex;
+  min-height: 70vh;
+  position: relative;
+  align-items: center;
+  border: 1px solid red;
+}
+header .inner {
+  padding: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  border: 1px dotted red;
+}
+header .inner h3 {
+  font-size: 40px;
+  font-weight: 400;
+  font-style: italic;
+}
+header .inner h1 {
+  font-size: 64px;
+}
+header .inner .btn {
+  display: inline-block;
+  font-size: 20px;
+  background-color: rgb(220, 163, 87);
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+header .inner .btn:hover {
+  background-color: rgba(220, 163, 87, 0.8);
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBS0EsU0FBQTtBQUNBO0VBQ0ksc0JBQUE7QUNISjs7QURNQTtFQUNJLGlDQUFBO0VBQ0EsY0FBQTtBQ0hKOztBRE1BO0VBQ0ksd0NBQUE7RUFDQSxrQ0FBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7QUNISjs7QURLQTtFQUNJLGtCQUFBO0VBQ0EsK0JBckJVO0VBc0JWLGVBQUE7RUFFQSw0QkFBQTtBQ0hKO0FESUk7RUFBSSxrQkFBQTtBQ0RSOztBRElBO0VBRUksYUFBQTtFQUNBLGtCQUFBO0VBQ0EsK0JBbENRO0VBbUNSLHVCQUFBO0VBR0EsbUNBQUE7QUNKSjtBREtJO0VBQ0ksa0JBQUE7RUFDQSxnQkFBQTtBQ0hSO0FETVE7RUFDSSxxQkFBQTtFQUNBLGtCQUFBO0FDSlo7QURLWTtFQUNJLHFCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7QUNIaEI7QURLZ0I7RUFDSSx3QkFBQTtBQ0hwQjs7QURVQTtFQUNJLGFBQUE7RUFDQSxnQkFBQTtFQUNBLGtCQUFBO0VBQ0EsbUJBQUE7RUFHQSxxQkFBQTtBQ1RKO0FEVUk7RUFDSSxVQUFBO0VBQ0EsY0FBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUVBLFlBQUE7RUFHQSxzQkFBQTtBQ1hSO0FEYVE7RUFDSSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtBQ1haO0FEYVE7RUFDSSxlQUFBO0FDWFo7QURlUTtFQUNJLHFCQUFBO0VBQ0EsZUFBQTtFQUNBLG1DQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7QUNiWjtBRGVZO0VBQ0kseUNBQUE7QUNiaEIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
